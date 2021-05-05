@@ -1,0 +1,39 @@
+.sideBarItemWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 43px;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.sideBarIcon {
+    width: 22px;
+    height: 22px;
+    margin-left: 38px;
+}
+
+.sideBarActiveDash {
+    width: 3px;
+    height: 43px;
+}
+
+.sideBarLabel {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #E83A1F;
+    margin-left: 33px;
+}
+
+.sideBarIconAndLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>my_app_19339.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>8798FE16AE03A9087692C04D228CACCF9F2BA1F1</string>
+				<key>dateExpires</key>
+				<string>18/12/2021</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>6YKR59QXKM.com.crowdbotics.restoic</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>6YKR59QXKM</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>6YKR59QXKM.com.crowdbotics.restoic</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>my_app_19339.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>03f5d8ba-2709-4eee-ac6b-8a92ce70c532</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.crowdbotics.restoic</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>6YKR59QXKM</string>
+				<key>name</key>
+				<string>Crowdbotics Corporation</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

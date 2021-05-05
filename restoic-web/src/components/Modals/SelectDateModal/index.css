@@ -1,0 +1,55 @@
+.selectDateLabel {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: #21222B;
+}
+
+.selectDateButtonsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectDateCloseButton {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #21222B;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.selectDateSubmitButton {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #E83A1F;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,29 @@
+.insightImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.weeklyInsightsWrapper {
+    display: flex;
+    align-items: center;
+    -moz-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    -webkit-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    background-color: white;
+    border-radius: 8px;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.weeklyInsightsText {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin-left: 13px;
+}
+

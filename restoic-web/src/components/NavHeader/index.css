@@ -1,0 +1,139 @@
+.navHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 375px);
+    background-color: #F8F9FB;
+    z-index: 2;
+}
+
+.navHeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-left: 56px;
+    padding-right: 51px;
+}
+
+.navHeaderTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navHeaderTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: #21222B;
+    text-align: left;
+}
+
+.navHeaderSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-decoration-line: underline;
+    color: #E83A1F;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.navHeaderUserWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navHeaderArrowLeft {
+    background-image: url('../../assets/icons/icon_left.png');
+    width: 10px;
+    height: 16px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.navHeaderArrowLeftDisabled {
+    background-image: url('../../assets/icons/icon_left.png');
+    width: 10px;
+    height: 16px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.navHeaderArrowRight {
+    background-image: url('../../assets/icons/icon_right.png');
+    width: 10px;
+    height: 16px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.navHeaderArrowRightDisabled {
+    background-image: url('../../assets/icons/icon_right.png');
+    width: 10px;
+    height: 16px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.navHeaderSliderWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 36px;
+    padding-left: 56px;
+    margin-bottom: 20px;
+}
+
+.navHeaderNumbOfWeek {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: #21222B;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navHeaderAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.navHeaderUserInfo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    padding-left: 22px;
+}

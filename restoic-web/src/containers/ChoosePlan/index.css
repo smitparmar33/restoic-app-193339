@@ -1,0 +1,76 @@
+.choicePlanWrapper {
+    background-image: url('../../assets/images/ChoicePlan.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    overflow-y: scroll;
+}
+
+.choicePlanLogo {
+    background-image: url('../../assets/images/Restoic_Logo_Black.png');
+    width: 165px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 44px;
+}
+
+.choicePlanDivider {
+    width: 218px;
+    height: 5px;
+    background: #E83A1F;
+    margin-top: 34px;
+    margin-bottom: 36px;
+}
+
+.choicePlanTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    color: #000000;
+    width: 60%;
+    margin-bottom: 45px;
+}
+
+.choicePlanItemsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -21px;
+}
+
+.choicePlanAlertText {
+    margin-top: 60px;
+    margin-bottom: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    color: #000000;
+}
+
+.choicePlanAlertButton {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-decoration-line: underline;
+    color: #E83A1F;
+    margin-bottom: 66px;
+    cursor: pointer;
+}

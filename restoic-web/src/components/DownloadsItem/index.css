@@ -1,0 +1,52 @@
+.downloadItemWrapper {
+    height: 80px;
+    width: 285px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 18px;
+    background-image: url('../../assets/images/Task_Item.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -moz-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    -webkit-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+}
+
+.downloadItemTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 175.19%;
+    color: #030303;
+    text-align: left;
+    width: 65%;
+}
+
+.downloadItemButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px !important;
+    height: 36px;
+    background: #E83A1F;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.downloadItemButtonTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

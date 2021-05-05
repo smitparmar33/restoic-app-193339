@@ -1,0 +1,75 @@
+.taskModalTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: #21222B;
+    margin-bottom: 40px;
+}
+
+.taskModalItem {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.taskModalButton {
+    width: 212px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E83A1F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.taskModalButtonWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.taskModalInfoIcon {
+    width: 22px;
+    height: 22px;
+    margin-right: 22px;
+}
+
+.taskModalCategoryInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.taskModalCategoryTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.taskModalDownloadIcon {
+    width: 33px;
+    height: 33px;
+    margin-left: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+export const playbackSpeedSelector = (state) => state.globalSettings.playBackSpeed;
+export const favoritesTriggerSelector = (state) => state.globalSettings.favoritesTrigger;
+export const introTypeSelector = (state) => state.globalSettings.introType;
+export const introButtonsSelector = (state) => state.globalSettings.introButtons;
+export const downloadTriggerSelector = (state) => state.globalSettings.downloadTrigger;
+export const alertBarSelector = (state) => state.globalSettings.alertBar;
+export const categoriesTriggerSelector = (state) => state.globalSettings.categoriesTrigger;
+export const binauralSeenSelector = (state) => state.globalSettings.binauralSeen;
+export const fromSignupSelector = (state) => state.globalSettings.fromSignup;

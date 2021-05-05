@@ -1,0 +1,25 @@
+const Icon = {
+  arrowDown: require('./ArrowDown/arrow_down.png'),
+  arrowDownWhite: require('./ArrowDown/arrow_down_white.png'),
+  arrowLeft: require('./ArrowLeft/arrow-left.png'),
+  checkMark: require('./CheckMark/check_mark.png'),
+  close: require('./Close/close.png'),
+  loader: require('./loader.gif'),
+  googleIcon: require('./GoogleIcon/google_icon.png'),
+  streak: require('./Streak/streak.png'),
+  lockIcon: require('./LockIcon/lock.png'),
+  redLockIcon: require('./LockIcon/red_lock.png'),
+  trackNext: require('./TrackIcon/track_next.png'),
+  trackPrevious: require('./TrackIcon/track_previous.png'),
+  rewindBack: require('./RewindIcon/rewind_back.png'),
+  rewindForward: require('./RewindIcon/rewind_forward.png'),
+  play: require('./PlayIcon/play.png'),
+  pause: require('./PauseIcon/pause.png'),
+  info: require('./InfoIcon/info.png'),
+  infoWhite: require('./InfoIcon/info_white.png'),
+  redStar: require('./RedStar/red_star.png'),
+  threeDots: require('./ThreeDots/three_dots.png'),
+  redDownload: require('./RedDownload/red_download.png'),
+};
+
+export default Icon;

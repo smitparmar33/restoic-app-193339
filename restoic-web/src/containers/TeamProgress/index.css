@@ -1,0 +1,167 @@
+.teamProgressContainer {
+    background-color: #F8F9FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.teamProgressWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.teamProgressContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 215px;
+    -moz-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    -webkit-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    padding: 36px 62px 0px 36px;
+    margin-bottom: 30px;
+}
+
+.teamProgressProgressWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.teamProgressWeeklyProgress {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.teamProgressOverallProgress {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.teamProgressGraphTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.teamProgressGraphWrapper {
+    margin-left: 35px;
+    margin-top: 54px;
+    width: 270px;
+}
+
+.teamProgressGraphSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: rgba(33, 34, 43, 0.66);
+}
+
+.teamProgressGraphPercentage {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.98px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: black;
+    text-transform: uppercase;
+}
+
+.teamProgressGraphPercentageSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12.85px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: black;
+    text-transform: uppercase;
+}
+
+.teamProgressMemberWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+.teamProgressMemberFilterHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teamProgressMemberFilterTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.teamProgressDummyDiv {
+    width: 100px;
+}
+
+.teamProgressFilterWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.teamProgressFilterLabel {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #E83A1F;
+}
+
+.teamProgressFilterIcon {
+    width: 11px;
+    height: 8px;
+    margin-left: 16px;
+}
+
+.teamProgressMemberStatsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 11px;
+}

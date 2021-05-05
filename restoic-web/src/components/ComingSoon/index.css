@@ -1,0 +1,86 @@
+.comingSoonWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 8px;
+    -moz-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    -webkit-box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    box-shadow: 0 18px 18px rgba(25, 31, 79, 0.13);
+    padding: 71px 61px 93px 61px;
+}
+
+.comingSoonTitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: capitalize;
+    color: #21222B;
+}
+
+.comingSoonSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 94.5%;
+    color: #000000;
+    margin-top: 39px;
+}
+
+.comingSoonThanks {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 94.5%;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.comingSoonButton {
+    width: 327px;
+    height: 58px;
+    background: #E83A1F;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.comingSoonButtonText {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.comingSoonFollowUsLabel {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #0C0C0A;
+    margin-top: 77px;
+    margin-bottom: 11px;
+}
+
+.socialIcons {
+    width: 58px;
+    height: 58px;
+    margin-right: 24px;
+    cursor: pointer;
+}

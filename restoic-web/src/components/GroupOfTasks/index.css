@@ -1,0 +1,29 @@
+.groupOfTasksWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 68px;
+}
+
+.groupOfTasksCardsWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: -24px;
+    margin-left: 36px;
+}
+
+.groupOfTasksLabel {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.165px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 57px;
+    margin-bottom: 33px;
+}

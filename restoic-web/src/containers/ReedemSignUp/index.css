@@ -1,0 +1,1375 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        padding: 72px 82px 54px 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        padding: 72px 82px 54px 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 82px 54px 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 82px 54px 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 82px 54px 82px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .signUpRedeemContent {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    
+    .signUpRedeemInput {
+        color: white;
+        width: 100%;
+        height: 44px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        outline-width: 0px;
+        margin-bottom: 20px;
+        background-color: transparent !important;
+        outline: transparent !important;
+        border-bottom: 1px solid #E9EBED;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        padding: 0px;
+    }
+    
+    .signUpRedeemInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-weight: bold;
+    }
+      
+    .signUpRedeemInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+    }
+      
+    .signUpRedeemInput::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+    }
+    
+    .signUpRedeemCenterRememberWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    
+    .signUpRedeemCenterRememberMe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signUpRedeemCenterRememberMeText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-left: 9px;
+    }
+    
+    .rememberMeInput {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    
+    .signUpRedeemCenterForgotPassword {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .signUpRedeemButton {
+        background-color: #E83A1F;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .signUpRedeemTermsText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    
+    .signUpRedeemTermsLabel {
+        color: #E83A1F;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .googleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .googleRedeemButtonIcon {
+        background-image: url('../../assets/icons/googleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .googleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .appleRedeemButton {
+        width: 100%;
+        height: 58px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        margin-top: 21px;
+    }
+    
+    .appleRedeemButtonIcon {
+        background-image: url('../../assets/icons/appleButton.png');
+        width: 28px;
+        height: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 18px;
+    }
+    
+    .appleRedeemButtonText {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .signUpRedeemDontHaveAccountText {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+  }

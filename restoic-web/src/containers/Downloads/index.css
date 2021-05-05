@@ -1,0 +1,13 @@
+.downloadsContainer {
+    background-color: #F8F9FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadsContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 215px;
+}

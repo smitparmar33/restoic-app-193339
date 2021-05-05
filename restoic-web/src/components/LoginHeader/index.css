@@ -1,0 +1,20 @@
+.loginHeader {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.loginHeaderLogo {
+    background-image: url('../../assets/images/Restoic_Logo.png');
+    width: 165px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
